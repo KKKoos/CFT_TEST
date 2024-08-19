@@ -5,7 +5,7 @@ java -jar <полный путь до корневой папки програм
 Пример для Windows:
 java -jar C:\Users\CFT\Desktop\cft\cft.jar -a -s -o C:\Users\CFT\Desktop\newFolder\ -p result_ C:\Users\CFT\Desktop\cft\in1.txt C:\Users\CFT\Desktop\cft\in2.txt C:\Users\CFT\Desktop\cft\in100.txt
 
-Пример для Lunix:
+Пример для Linux:
 java -jar /home/user/cft/jar_name.jar -a -s -o /home/user/newFolder/ -p result_ /home/user/cft/in1.txt /home/user/cft/in2.txt /home/user/cft/in100.txt
 
 
