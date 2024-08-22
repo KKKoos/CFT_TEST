@@ -7,12 +7,12 @@ import static org.example.ReadFromFile.*;
 
 class WriteToFile {
 
-    static String nameFileInteger = "integers.txt";
-    static String nameFileFloats = "floats.txt";
-    static String nameFileString = "strings.txt";
+    private static String nameFileInteger = "integers.txt";
+    private static String nameFileFloats = "floats.txt";
+    private static String nameFileString = "strings.txt";
 
-    static String prefix = "";
-    static String pathFile = "";
+    private static String prefix = "";
+    private static String pathFile = "";
 
 
     static void WriteToFile(){
