@@ -6,7 +6,7 @@ import java.util.*;
 import static org.example.ReadFromFile.*;
 
 public class Main {
-    private static boolean appendMode;
+    static boolean appendMode;
 
     public static void main(String[] args) {
 
@@ -93,8 +93,6 @@ public class Main {
             }
 
 
-    public static boolean isAppendMode() {
-        return appendMode;
-    }
+
 
     }
