@@ -19,7 +19,7 @@ class WriteToFile {
 
         if (!listLong.isEmpty()) {
             try {
-                FileWriter fileWriter = new FileWriter(pathFile + prefix + nameFileInteger, Main.appendMode);
+                FileWriter fileWriter = new FileWriter(pathFile + prefix + nameFileInteger, Main.isAppendMode());
 
                 for (int i = 0; i < listLong.size(); i++) {
                         fileWriter.append(listLong.get(i).toString());
@@ -37,7 +37,7 @@ class WriteToFile {
 
         if (!listDouble.isEmpty()){
             try {
-                FileWriter fileWriter = new FileWriter(pathFile + prefix + nameFileFloats, Main.appendMode);
+                FileWriter fileWriter = new FileWriter(pathFile + prefix + nameFileFloats, Main.isAppendMode());
 
                     for (int i = 0; i < listDouble.size(); i++) {
                         fileWriter.append(listDouble.get(i).toString());
@@ -55,7 +55,7 @@ class WriteToFile {
 
         if (!listString.isEmpty()) {
             try {
-                FileWriter fileWriter = new FileWriter(pathFile + prefix + nameFileString, Main.appendMode);
+                FileWriter fileWriter = new FileWriter(pathFile + prefix + nameFileString, Main.isAppendMode());
                 if (!listString.isEmpty()) {
                     for (int i = 0; i < listString.size(); i++) {
                         if(!listString.get(i).equals("")) {
